@@ -1,8 +1,8 @@
 ---
 label: Blog Post
-hide_body: false
+hide_body: true
 fields:
-- name: post_title
+- name: title
   type: text
   config:
     required: true
@@ -15,10 +15,29 @@ fields:
     date_format:
     time_format:
     display_utc: false
+    export_format: YYYY/MM/DD
+  default: now
 - type: text
   name: author
   label: author
+  config:
+    required: true
+  default: alex
+  hidden: true
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: content
+  description: 'This is where your content goes. '
 pages:
 - _posts/2020-06-17-jilloncemore.md
 - _posts/2020-06-28-another-one.md
+- _posts/2020-06-28-hello-there.md
 - _posts/2020-06-28-new-post.md
+- _posts/2020-06-28-that-doesn-t-work..md
+- _posts/this-is-the-title.md
