@@ -5,15 +5,15 @@ fields:
 - name: post_title
   type: text
   config:
-    required: false
+    required: true
   label: Post Title
 - name: date
   type: datetime
   label: Date
   config:
-    required: false
-    date_format: 
-    time_format: 
+    required: true
+    date_format:
+    time_format:
     display_utc: false
 - type: text
   name: author
