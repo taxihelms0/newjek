@@ -2,11 +2,11 @@
 label: Blog Post
 hide_body: false
 fields:
-- name: post_title
+- name: title
   type: text
   config:
     required: false
-  label: Post Title
+  label: Title
 - name: date
   type: datetime
   label: Date
