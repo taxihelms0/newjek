@@ -5,3 +5,5 @@ fields:
 - type: text
   name: author
   label: author
+pages:
+- _posts/2020-06-28-new-post.md
