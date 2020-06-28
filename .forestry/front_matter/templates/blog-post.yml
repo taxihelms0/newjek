@@ -12,8 +12,8 @@ fields:
   label: Date
   config:
     required: true
-    date_format:
-    time_format:
+    date_format: 
+    time_format: 
     display_utc: false
     export_format: YYYY/MM/DD
   default: now
@@ -38,6 +38,6 @@ pages:
 - _posts/2020-06-17-jilloncemore.md
 - _posts/2020-06-28-another-one.md
 - _posts/2020-06-28-hello-there.md
+- _posts/2020-06-28-here-s-a-title.md
 - _posts/2020-06-28-new-post.md
 - _posts/2020-06-28-that-doesn-t-work..md
-- _posts/this-is-the-title.md
