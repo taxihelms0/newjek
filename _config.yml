@@ -23,3 +23,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-environment-variables
+
+# variables
+form_key: {{ site.env.STATICFORMS_KEY }}

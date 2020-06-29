@@ -1,11 +1,11 @@
 ---
 title: Contact
-key: {{ site.env.STATICFORMS_KEY }}
+
 ---
 <!-- Make sure you don't change the form action-->
     <form action="https://api.staticforms.xyz/submit" method="post">
         <!-- Replace with accesKey sent to your email -->
-        <input type="hidden" name="accessKey" value="{{ page.key }}"> <!-- Required -->
+        <input type="hidden" name="accessKey" value="{{ site.form_key }}"> <!-- Required -->
         <li>
           name: <input type="text" name="name"> <!-- Optional -->
         </li>
