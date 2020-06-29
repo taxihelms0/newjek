@@ -29,6 +29,8 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
+    jekyll-environment-variables (1.0.1)
+      jekyll (>= 3.0, < 5.x)
     jekyll-feed (0.14.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (2.1.0)
@@ -69,6 +71,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-environment-variables
   jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap

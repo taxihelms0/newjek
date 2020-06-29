@@ -1,6 +1,15 @@
 <nav>
   <div class="dropdown">
-    <span>menu</span>
+    <span><a href="/" class="current">
+      {% if page.layout != "default" %}
+        Home
+      {% endif %}
+      {% for item in site.data.navigation %}
+        {% if page.url == item.link %}
+          {{ item.name }}
+        {% endif %}
+      {% endfor %}
+    </a></span>
     <div class="dropdown-content">
       <ul>
         {% for item in site.data.navigation %}
@@ -9,8 +18,6 @@
         </li>
         {% endfor %}
       </ul>
-
     </div>
   </div>
-
 </nav>
