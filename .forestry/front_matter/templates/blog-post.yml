@@ -1,6 +1,6 @@
 ---
 label: Blog Post
-hide_body: true
+hide_body: false
 fields:
 - name: title
   type: text
@@ -24,16 +24,6 @@ fields:
     required: true
   default: alex
   hidden: true
-- name: content
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: content
-  description: 'This is where your content goes. '
 pages:
 - _posts/2020-06-17-jilloncemore.md
 - _posts/2020-06-28-another-one.md
