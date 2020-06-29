@@ -7,21 +7,25 @@ title: Contact
         <!-- Replace with accesKey sent to your email -->
         <input type="hidden" name="accessKey" value="{{ site.form_key }}"> <!-- Required -->
         <li>
-          name: <input type="text" name="name"> <!-- Optional -->
+          name:<br><input type="text" name="name"> <!-- Optional -->
         </li>
         <li>
-          subject: <input type="text" name="subject"> <!-- Optional -->
+          subject:<br><input type="text" name="subject"> <!-- Optional -->
         </li>
         <li>
-          e-mail: <input type="text" name="email"> <!-- Optional -->
+          e-mail:<br><input type="text" name="email"> <!-- Optional -->
         </li>
         <!-- Optional <input type="text" name="phone"> -->
-        <textarea name="message"></textarea> <!-- Optional -->
+        <li>
+          message:<br><textarea name="message"></textarea> <!-- Optional -->
+        </li>
         <!-- If you want replyTo to be set to specific email -->
         <!-- Optional <input type="text" name="replyTo" value="myreplytoemail@example.com"> -->
         <!-- Specify @ as reply to value if you want it to be customers email -->
         <input type="hidden" name="replyTo" value="@"> <!-- Optional -->
         <!-- If you want form to redirect to a specific url after submission -->
         <!-- Optional <input type="hidden" name="redirectTo" value="https://example.com/contact/success">  -->
-        <input type="submit" value="Submit" />
+        <li>
+          <input type="submit" value="Submit" />
+        </li>
     </form>

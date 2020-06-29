@@ -59,12 +59,16 @@ nav li a {
 }
 /* End Nav Bar Styling */
 
-h1 {
-    display: block;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
+/* begin form stuff */
+form li {
+  list-style-type: none;
+  padding: 10px 0 10px 0;
+
+
 }
+
+textarea {
+    width: 33%;
+    height: 100px;
+}
+/* end form stuff */
