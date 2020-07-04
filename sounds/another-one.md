@@ -4,6 +4,5 @@ author: alex
 title: Another One
 media_file: "/uploads/02-the-terminator-main-title.mp3"
 content: this is the one
-published: false
 
 ---
