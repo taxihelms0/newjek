@@ -41,3 +41,5 @@ fields:
       format: markdown
   label: content
   description: Any other info you want to include?
+pages:
+- sounds/another-one.md
