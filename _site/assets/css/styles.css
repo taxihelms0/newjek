@@ -1,18 +1,20 @@
 /* begin global stuff */
 body { padding: 1rem; font-family: sans-serif; }
 
+a { color: black; }
+
 a:hover { background-color: red; }
 
 /* end global stuff */
 /* Begin Nav Bar Styling */
 nav ul { list-style-type: none; margin: 0; padding: 0rem; }
 
-nav li { display: inline; padding-right: 1rem; }
+nav li a { text-decoration: none; display: inline; padding-right: 1rem; }
 
 /* begin dropdown menu */
 .dropdown { position: relative; display: inline-block; }
 
-.dropdown-content { display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); padding: 12px 16px; z-index: 1; }
+.dropdown-content { display: none; position: absolute; background-color: yellow; min-width: 160px; padding: 12px 16px; z-index: 1; }
 
 .dropdown:hover .dropdown-content { display: block; }
 
@@ -20,6 +22,11 @@ nav li { display: inline; padding-right: 1rem; }
 .current { color: green; background-color: blue; font-size: 2em; margin-top: 0.67em; margin-bottom: 0.67em; margin-left: 0; margin-right: 0; font-weight: bold; }
 
 /* End Nav Bar Styling */
-h1 { display: block; font-size: 2em; margin-top: 0.67em; margin-bottom: 0.67em; margin-left: 0; margin-right: 0; font-weight: bold; }
+/* begin form stuff */
+form li { list-style-type: none; padding: 10px 0 10px 0; }
+
+textarea { width: 33%; height: 100px; }
+
+/* end form stuff */
 
 /*# sourceMappingURL=styles.css.map */
