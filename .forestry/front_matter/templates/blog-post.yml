@@ -24,6 +24,12 @@ fields:
     required: true
   default: alex
   hidden: true
+- name: media_file
+  type: file
+  config:
+    maxSize: 64
+  label: Media File Upload
+  description: upload a file
 pages:
 - _posts/2020-06-17-jilloncemore.md
 - _posts/2020-06-28-another-one.md
@@ -32,3 +38,4 @@ pages:
 - _posts/2020-06-28-new-post.md
 - _posts/2020-06-28-that-doesn-t-work..md
 - _posts/2020-06-29-image-post.md
+- _posts/2020-07-04-terminator.md
