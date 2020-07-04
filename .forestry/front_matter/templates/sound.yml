@@ -1,0 +1,16 @@
+---
+label: sound
+hide_body: true
+fields:
+- type: text
+  name: date
+  label: date
+- type: text
+  name: author
+  label: author
+- type: text
+  name: title
+  label: title
+- type: text
+  name: file_upload
+  label: file_upload
