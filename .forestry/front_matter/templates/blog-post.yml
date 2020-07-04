@@ -24,6 +24,12 @@ fields:
     required: true
   default: alex
   hidden: true
+- name: file_upload
+  type: file
+  config:
+    maxSize: 64
+  label: File Upload
+  description: upload a file
 pages:
 - _posts/2020-06-17-jilloncemore.md
 - _posts/2020-06-28-another-one.md
