@@ -1,6 +1,7 @@
 ---
 label: sound
 hide_body: true
+display_field: title
 fields:
 - type: text
   name: date
@@ -14,3 +15,13 @@ fields:
 - type: text
   name: file_upload
   label: file_upload
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: content
+  description: Any other info you want to include?
