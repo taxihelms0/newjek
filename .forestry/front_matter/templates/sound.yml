@@ -12,9 +12,12 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: file_upload
-  label: file_upload
+- name: media_file
+  type: file
+  config:
+    maxSize: 64
+  label: File Upload
+  description: 'This is where you upload your media file. '
 - name: content
   type: textarea
   default: ''
