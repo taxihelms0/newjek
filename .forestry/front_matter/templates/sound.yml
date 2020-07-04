@@ -3,15 +3,28 @@ label: sound
 hide_body: true
 display_field: title
 fields:
-- type: text
-  name: date
-  label: date
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: YYYY/MM/DD
+    time_format: 
+    display_utc: false
+  default: now
 - type: text
   name: author
   label: author
+  config:
+    required: true
+  default: alex
+  hidden: true
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - name: media_file
   type: file
   config:
