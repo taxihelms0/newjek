@@ -60,15 +60,32 @@ nav li a {
 /* End Nav Bar Styling */
 
 /* begin form stuff */
+form {
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  text-align:center;
+}
+form ul {
+  text-align:left;
+  padding-inline-start:0;
+}
 form li {
   list-style-type: none;
-  padding: 10px 0 10px 0;
+  //padding: 1rem;
+  padding-top:1rem;
+  margin-left:auto;
+  margin-right:auto;
+}
 
-
+input {
+  width: 75%;
+  height: 25px;
 }
 
 textarea {
-    width: 33%;
+    width: 100%;
     height: 100px;
 }
 /* end form stuff */
